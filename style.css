@@ -120,3 +120,102 @@ section div.squer-img :last-child{
 section div.squer-img div p{
     padding: 10px 20px;
 }
+
+/* ============================= */
+section .con-sec-six .main-body{
+    margin: 0 100px 50px 100px;
+    height: 260px;
+    background: linear-gradient(#2e2216 , rgb(194 167 138));
+    display: flex;
+    /* border-radius: 40px; */
+}
+section .con-sec-six .main-body .top {
+    display: flex;
+    align-items: center;
+}
+section .con-sec-six .chile {
+    height: 100%;
+}
+section .con-sec-six .left {
+    flex: .5;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+section .con-sec-six .center {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+section .con-sec-six .center h2{
+    font-size: 30px;
+    margin: 0 50px;
+}
+section .con-sec-six .center form {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    /* position: absolute; */
+    
+}
+section .con-sec-six .center form .email{
+    width: 100%;
+    height: 56px;
+    display: flex;
+    /* border-radius: 30px; */
+    border: none;
+    padding-left: 20px;
+    margin-left: 60px;
+}
+section .con-sec-six .center form .submit{
+    width: 30%;
+    height:50px;
+    background-color: var(--main_color);
+    color: var(--font_color);
+    border-radius: 30px;
+    border: none;
+    margin-top: 3px;
+    z-index: 2;
+    position: relative;
+    left:-119px;
+    cursor: pointer;
+
+
+}
+section .con-sec-six .right {
+    flex: .5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section .con-sec-six .chile img.avarar{
+    width: 40px;
+    height: 40px;
+    /* border-radius: 50%; */
+    border: 2px solid var(--font_color);
+}
+section .con-sec-six .chile img.img-hous1{
+    width: 70px;
+    height: 70px;
+    /* border-radius: 30%; */
+    margin-right: 60px;
+    border: 2px solid var(--font_color);
+}
+section .con-sec-six .chile img.img-hous2{
+    width: 60px;
+    height: 60px;
+    /* border-radius: 45%; */
+    margin-left: 60px;
+    border: 2px solid var(--font_color);
+}
+
+/* ======================= end   section 6 ================ */
+ 
