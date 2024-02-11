@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 200vh;
+
+}
+section.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    height: 100vh;
+    color: rgb(236, 230, 213);
+    background:url(../images/img3.jpg);
+    background-size: cover;
+
+}
+section.top h2 {
+    color: rgb(208, 134, 37);
+}
+section.top nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    list-style: none;
+}
+section.top nav ul li{
+    padding: 6px 30px;
+    border-radius: 8px;
+    color: burlywood;
+    /* color: whitesmoke; */
+
+}
+section.top nav ul li:hover{
+    color: whitesmoke;
+    background-color: burlywood;
+
+}
