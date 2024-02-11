@@ -35,3 +35,42 @@ section.top nav ul li:hover{
     background-color: burlywood;
 
 }
+
+/* =============== carts ======= */
+.contaner {
+    margin: 40px;
+}
+section.carts {
+    height: 85vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 10vh; */
+    background-color: #2e2216;
+    margin: 20px 0 80px 0;
+}
+section.carts div.cart{
+
+    height: 70vh;
+    width: 290px;
+    color: antiquewhite;
+    background-color: rgb(194 167 138);
+    border: 1px wheat solid;
+}
+section.carts div.cart img{
+height: 30vh;
+width: 100%;
+}
+section.carts div.cart p{
+line-height: 35px;
+padding: 0 20px;
+}
+section.carts div.cart button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 1px;
+    background:  rgb(80 37 20);
+    margin: 20px;
+    color: bisque;
+}
