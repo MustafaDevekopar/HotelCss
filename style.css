@@ -96,3 +96,27 @@ section.content div.discriotion p {
     padding: 0 45px;
     margin: 0;
 }
+/* ============= squer-img ============= */
+section div.squer-img {
+    /* height: 300px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0 100px 0;
+}
+section div.squer-img div img{
+    height: 250px;
+    width: 100%;
+}
+section div.squer-img div{
+    background-color: rgb(194 167 138);
+    color: blanchedalmond;
+    margin: 0 40px 0 0;
+}
+section div.squer-img :last-child{
+
+    margin: 0;
+}
+section div.squer-img div p{
+    padding: 10px 20px;
+}
